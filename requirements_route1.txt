@@ -1,0 +1,7 @@
+kagglehub
+numpy
+scipy
+scikit-learn
+soundfile
+matplotlib
+pandas

@@ -1,0 +1,9 @@
+{
+  "analyzed_spoofs": 10,
+  "correct_before": 10,
+  "correct_after": 10,
+  "mean_original_confidence": 0.5326277256011963,
+  "mean_masked_confidence": 0.5532956540584564,
+  "mean_relative_drop_delta_s": -3.8803687261759654,
+  "mean_high_band_attribution_ratio": 0.3605116158723831
+}

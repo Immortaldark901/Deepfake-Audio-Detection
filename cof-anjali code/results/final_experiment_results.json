@@ -1,0 +1,236 @@
+{
+  "table_3_comparison": [
+    {
+      "model": "M1 LFCC-GMM Baseline [4]",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0,
+        "eer": 0.0,
+        "eer_threshold": 1.0,
+        "threshold_used": 0.5,
+        "pfa": 0.0,
+        "pmiss": 0.0,
+        "tp": 12.0,
+        "tn": 8.0,
+        "fp": 0.0,
+        "fn": 0.0,
+        "n_total": 20.0
+      }
+    },
+    {
+      "model": "M2 CQCC-GMM Baseline [4]",
+      "metrics": {
+        "accuracy": 0.9043,
+        "precision": 0.918,
+        "recall": 0.897,
+        "f1": 0.9074,
+        "roc_auc": 0.948,
+        "eer": 0.0957
+      }
+    },
+    {
+      "model": "M3 Log-Mel ResNet-18 [1]",
+      "metrics": {
+        "accuracy": 0.9466,
+        "precision": 0.952,
+        "recall": 0.941,
+        "f1": 0.9465,
+        "roc_auc": 0.976,
+        "eer": 0.0534
+      }
+    },
+    {
+      "model": "M4 RawNet2 (End-to-End) [6]",
+      "metrics": {
+        "accuracy": 0.9538,
+        "precision": 0.959,
+        "recall": 0.951,
+        "f1": 0.955,
+        "roc_auc": 0.9815,
+        "eer": 0.0462
+      }
+    },
+    {
+      "model": "Proposed Dual-Stream (Ours)",
+      "metrics": {
+        "accuracy": 0.95,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1": 0.9565217391304348,
+        "roc_auc": 1.0,
+        "eer": 0.0,
+        "eer_threshold": 0.4759265184402466,
+        "threshold_used": 0.4759753942489624,
+        "pfa": 0.0,
+        "pmiss": 0.08333333333333333,
+        "tp": 11.0,
+        "tn": 8.0,
+        "fp": 0.0,
+        "fn": 1.0,
+        "n_total": 20.0
+      }
+    }
+  ],
+  "table_a_per_attack": {
+    "A09": {
+      "eer": 0.0,
+      "accuracy": 0.9090909090909091,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "roc_auc": 1.0,
+      "n_spoof": 3,
+      "n_total": 11
+    },
+    "A10": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 1,
+      "n_total": 9
+    },
+    "A11": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 1,
+      "n_total": 9
+    },
+    "A13": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 2,
+      "n_total": 10
+    },
+    "A15": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 1,
+      "n_total": 9
+    },
+    "A16": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 1,
+      "n_total": 9
+    },
+    "A18": {
+      "eer": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "n_spoof": 3,
+      "n_total": 11
+    }
+  },
+  "table_b_unseen_attacks": {
+    "seen_summary": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "eer": 0.0,
+      "eer_threshold": 0.47612419724464417,
+      "threshold_used": 0.4759753942489624,
+      "pfa": 0.0,
+      "pmiss": 0.0,
+      "tp": 1,
+      "tn": 8,
+      "fp": 0,
+      "fn": 0,
+      "n_total": 9
+    },
+    "unseen_summary": {
+      "accuracy": 0.9473684210526315,
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1": 0.9523809523809523,
+      "roc_auc": 1.0,
+      "eer": 0.0,
+      "eer_threshold": 0.4759265184402466,
+      "threshold_used": 0.4759753942489624,
+      "pfa": 0.0,
+      "pmiss": 0.09090909090909091,
+      "tp": 10,
+      "tn": 8,
+      "fp": 0,
+      "fn": 1,
+      "n_total": 19
+    },
+    "seen_attack_ids": [
+      "A16",
+      "A19"
+    ],
+    "unseen_attack_ids": [
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A17",
+      "A18"
+    ]
+  },
+  "proposed_dev_threshold": 0.4759753942489624,
+  "history": {
+    "train_loss": [
+      0.6654650568962097,
+      0.555570101737976
+    ],
+    "val_acc": [
+      0.5,
+      0.5
+    ],
+    "val_f1": [
+      0.0,
+      0.0
+    ],
+    "val_auc": [
+      1.0,
+      1.0
+    ],
+    "val_eer": [
+      0.0,
+      0.0
+    ],
+    "val_precision": [
+      0.0,
+      0.0
+    ],
+    "val_recall": [
+      0.0,
+      0.0
+    ],
+    "best_eer": 0.0,
+    "best_epoch": 1,
+    "best_dev_threshold": 0.4759753942489624
+  }
+}

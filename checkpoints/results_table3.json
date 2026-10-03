@@ -1,0 +1,34 @@
+{
+  "Proposed Dual-Stream": {
+    "accuracy": 0.99375,
+    "precision": 1.0,
+    "recall": 0.9875,
+    "f1": 0.9937106918238994,
+    "roc_auc": 1.0,
+    "eer": 0.0,
+    "eer_threshold": 0.4748712480068207,
+    "pfa": 0.0,
+    "pmiss": 0.0125,
+    "tp": 237,
+    "tn": 240,
+    "fp": 0,
+    "fn": 3,
+    "eval_threshold_used": 0.4752940833568573
+  },
+  "M3 Log-Mel ResNet-18": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "eer": 0.0,
+    "eer_threshold": 0.14582741260528564,
+    "pfa": 0.0,
+    "pmiss": 0.0,
+    "tp": 240,
+    "tn": 240,
+    "fp": 0,
+    "fn": 0,
+    "eval_threshold_used": 0.14541447162628174
+  }
+}
